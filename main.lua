@@ -1834,7 +1834,7 @@ local abs = math.abs
 
                 button.MouseButton1Click:Connect(function()
                     player_buttons[selected_player.Name].priority.Text = "Enemy"
-                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(255, 44, 44)
+                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(106, 97, 255)
                 end)
                 
                 local UIListLayout = library:create("UIListLayout", {
