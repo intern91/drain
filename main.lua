@@ -1805,7 +1805,7 @@ local abs = math.abs
 
                 button.MouseButton1Click:Connect(function()
                     player_buttons[selected_player.Name].priority.Text = "Friendly"
-                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(15, 179, 255)
+                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(140, 255, 81)
                 end)
                 
                 local button_inline = library:create("Frame", {
@@ -1834,7 +1834,7 @@ local abs = math.abs
 
                 button.MouseButton1Click:Connect(function()
                     player_buttons[selected_player.Name].priority.Text = "Priority"
-                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(75, 50, 255)
+                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(105, 80, 255)
                 end)
                 
                 local UIListLayout = library:create("UIListLayout", {
