@@ -1824,7 +1824,7 @@ local abs = math.abs
                     FontFace = library.font,
                     TextColor3 = Color3.fromRGB(170, 170, 170),
                     BorderColor3 = Color3.fromRGB(56, 56, 56),
-                    Text = "Enemy",
+                    Text = "Priority",
                     TextStrokeTransparency = 0.5,
                     Position = UDim2.new(0, 2, 0, 2),
                     Size = UDim2.new(1, -4, 1, -4),
@@ -1833,8 +1833,8 @@ local abs = math.abs
                 })
 
                 button.MouseButton1Click:Connect(function()
-                    player_buttons[selected_player.Name].priority.Text = "Enemy"
-                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(106, 97, 255)
+                    player_buttons[selected_player.Name].priority.Text = "Priority"
+                    player_buttons[selected_player.Name].priority.TextColor3 = rgb(75, 50, 255)
                 end)
                 
                 local UIListLayout = library:create("UIListLayout", {
